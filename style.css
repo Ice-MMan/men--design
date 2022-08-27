@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  font-size: larger;
+}
+
+nav {
+  width: 20vw;
+  height: 100vw;
+  background-color: rgb(255, 179, 56);
+  position: absolute;
+  top: 0px;
+  left: -15vw;
+  transition: all 1s;
+}
+
+nav:hover {
+  left: 0;
+}
+
+.menu {
+  position: relative;
+  background-color: rgb(184, 113, 0);
+  padding: 0.5rem;
+  padding-left: 3rem;
+  font-family:'Times New Roman', Times, serif
+}
+
+.menu i {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.4rem;
+  transition: all 2s;
+  padding: 0.3rem;
+}
+
+nav:hover i {
+  transform: rotate(180deg);
+  color: rgba(165, 42, 42, 0.479);
+}
+
+.icerik {
+  padding: 1rem 0.5rem;
+}
+
+.icerik ul {
+  margin: 2rem 0rem;
+  padding-left: 1rem;
+  font-size: x-large;
+}
+
+.icerik ul:hover {
+  color: rgba(165, 42, 42, 0.479);
+  cursor: pointer;
+  font-size: xx-large;
+}
